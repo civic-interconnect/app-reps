@@ -1,0 +1,30 @@
+{
+  "dashboard_version": "0.0.1",
+  "generated": "2025-06-22",
+  "reps": [
+    {
+      "name": "Minnesota House District 3A",
+      "repo": "https://example.com/district/3A",
+      "version": "v1.0.0",
+      "last_commit": "2025-06-22",
+      "action_status": "Pending",
+      "schema_source": "OCD",
+      "representative": "Terry Doe",
+      "party": "GOP",
+      "boundary_quality": "Under review",
+      "notes": "Includes Lake, Cook, and northern St. Louis counties (placeholder static data)"
+    },
+    {
+      "name": "Minnesota Senate District 3",
+      "repo": "https://example.com/district/3",
+      "version": "v1.0.0",
+      "last_commit": "2025-06-21",
+      "action_status": "Pending",
+      "schema_source": "OCD",
+      "representative": "Pat Smith",
+      "party": "DFL",
+      "boundary_quality": "Under review",
+      "notes": "Large rural district in northeastern MN  (placeholder static data)"
+    }
+  ]
+}
