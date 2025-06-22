@@ -1,6 +1,6 @@
 [project]
 name = "app-reps"
-version = "1.0.4"
+version = "0.0.1"
 description = "Civic Interconnect App: Find representatives and explore civic boundaries"
 authors = [
   { name = "Civic Interconnect", email = "info@civic-interconnect.org" }

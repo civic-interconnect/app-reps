@@ -1,11 +1,13 @@
 {
-  "name": "Civic Interconnect Agent Dashboard",
-  "description": "A dashboard for monitoring agent statuses.",
-  "short_name": "CI Dashboard",
-  "start_url": "./index.html",
+  "name": "Civic Interconnect: Reps App",
+  "description": "Find your reps with Civic Interconnect.",
+  "short_name": "CI Reps App",
+  "start_url": "/app-reps/",
+  "scope": "/app-reps/",
   "display": "standalone",
   "background_color": "#f4f4f4",
   "theme_color": "#007acc",
+  "lang": "en",
   "icons": [
     {
       "src": "./favicon_io/android-chrome-192x192.png",

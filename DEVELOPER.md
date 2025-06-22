@@ -29,7 +29,7 @@ Visit: <http://localhost:8000>
 After verifying changes:
 
 ```powershell
-app-reps bump-version 1.0.3 1.0.4
+app-reps bump-version 0.0.0 0.0.1
 app-reps release
 ```
 
