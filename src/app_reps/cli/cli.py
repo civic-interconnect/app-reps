@@ -18,12 +18,28 @@ import typer
 
 from . import (
     bump_version,
+    cli_fetch_boundaries,
+    cli_fetch_cd,
+    cli_fetch_roles,
+    cli_fetch_states,
     prep_code,
     release,
     serve_app,
 )
 
 app = typer.Typer(help="App Reps CLI")
+
+
+def wrap_fetch(cli_module, label: str):
+    @app.command(label)
+    def _command():
+        cli_module.main()
+
+
+wrap_fetch(cli_fetch_boundaries, "fetch-boundaries")
+wrap_fetch(cli_fetch_cd, "fetch-cd")
+wrap_fetch(cli_fetch_roles, "fetch-roles")
+wrap_fetch(cli_fetch_states, "fetch-states")
 
 
 @app.command("bump-version")

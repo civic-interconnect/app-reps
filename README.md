@@ -1,6 +1,6 @@
 # app-reps
 
-[![Version](https://img.shields.io/badge/version-v0.0.1-blue)](https://github.com/civic-interconnect/app-reps/releases)
+[![Version](https://img.shields.io/badge/version-v0.0.2-blue)](https://github.com/civic-interconnect/app-reps/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://github.com/civic-interconnect/app-reps/actions/workflows/app.yml/badge.svg)](https://github.com/civic-interconnect/app-reps/actions)
 

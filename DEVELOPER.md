@@ -5,6 +5,8 @@
 First, fork the repo. Git clone your repo to your machine. Open project repo in VS Code.
 Open a terminal (commands are for PowerShell).
 
+After any changes, rerun init_venv.py (we do not install editable version).
+
 ```powershell
 git clone https://github.com/civic-interconnect/app-reps.git
 cd app-reps
@@ -12,6 +14,10 @@ py -m venv .venv
 .\.venv\Scripts\activate
 py src\setup\init_venv.py
 app-reps prep-code
+app-reps fetch-boundaries
+app-reps fetch-cd
+app-reps fetch-roles
+app-reps fetch-states
 app-reps serve-app
 ```
 
@@ -29,7 +35,7 @@ Visit: <http://localhost:8000>
 After verifying changes:
 
 ```powershell
-app-reps bump-version 0.0.0 0.0.1
+app-reps bump-version 0.0.1 0.0.2
 app-reps release
 ```
 
