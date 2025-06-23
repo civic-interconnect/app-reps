@@ -1,7 +1,7 @@
 {
   "name": "Civic Interconnect: Reps App",
-  "description": "Find your reps with Civic Interconnect.",
   "short_name": "CI Reps App",
+  "description": "Find your reps with Civic Interconnect.",
   "start_url": "/app-reps/",
   "scope": "/app-reps/",
   "display": "standalone",
